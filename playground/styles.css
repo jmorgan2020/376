@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: #008DFF;
+}
+
+p {
+    background-color:#FF0000;
+    font-family: Helvetica;
+}
+
+h1 {
+    background-color:#00FF1B;
+    font-family: Georgia;
+}
+
+a {
+    background-color:#FFF000;
+    font-family: Courier;
+}
+
+
+
+
+
+
+
