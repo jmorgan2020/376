@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+.title {
+    background-color:#ff6a00;
+    text-align:center;
+    font-family:Impact;
+}
+
+.navigation{
+    background-color:#ff6a00;
+    text-align:center;
+    font-family:Impact;
+}
+
+.button {
+    background-color: #006699;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.button-link, .button-link:visited, .button-link:active {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.button-link:hover {
+    color: #006699;
+}
