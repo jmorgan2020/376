@@ -1,9 +1,39 @@
 @CHARSET "UTF-8";
 
-.page {
-    background-image: url("codbackground.jpg");
-    
+.RLBackground {
+    background-image:url("rocket league.jpg");
+    background-repeat:repeat;
+    background-position:center top; 
+}
 
+.videogames {
+    background-image:url("videogames.jpg");
+    background-repeat:repeat;
+    background-position:center top; 
+}
+
+.fortnitebackground {
+    background-image:url("fOrtnite.jpg");
+    background-repeat:repeat;
+    background-position:center top; 
+}
+
+.bo4background {
+    background-image: url("bo4image.jpg");
+    background-repeat: repeat;
+    background-position: center top; 
+}
+
+.home {
+    color:white;
+    font-size:50px;
+}
+
+p {
+    font-size: 35px;
+    font-family:impact;
+    color:gray;
+    text-align:center;
 }
 
 h1 {
@@ -15,7 +45,7 @@ h1 {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:400px;
+    width:350px;
     background-color:#595959;
     text-align:center;
     font-family:Impact;
@@ -23,7 +53,7 @@ h1 {
 
 #trailer {
     display:block;
-    margin-top:50px;
+    margin-top:700px;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
