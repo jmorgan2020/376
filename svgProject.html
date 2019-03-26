@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <svg width="500" height="500">
+    
+   <defs>
+      <linearGradient id="eyeGrad" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(96, 59, 14)"/>
+        <stop offset="100%" stop-color="rgb(163, 109, 43)"/>
+      </linearGradient>
+  </defs>
+  
+         <!--Text-->
+        <text x="80" y="200" fill="black">:thinking:</text>
+  
+        <!--Head-->
+        <circle cx="250" cy="250" r="100" stroke="rgb(248, 164, 58)" stroke-width="5" fill="rgb(255, 207, 15)" />
+        
+        <!--Eyes-->
+        <ellipse id ="backEye" cx="222" cy="220" rx="13" ry="18" style="fill:rgb(254, 238, 134)" transform="rotate(10 222 220)" />
+        <use href="#backEye" x="64" fill="fill:rgb(254, 238, 134)" transform="rotate(11 219 214)"/>
+        <ellipse cx="222" cy="220" rx="10" ry="15" style="fill:url(#eyeGrad)" transform="rotate(10 222 220)" />
+        <ellipse cx="285" cy="220" rx="10" ry="15" style="fill:url(#eyeGrad)" transform="rotate(10 215 220)" />
+        
+        <!--Mouth-->
+        <path d="M215 275.5 c 4  -5, 45 -7, 66.5 2" stroke="rgb(254, 238, 134)" stroke-width="6" fill="transparent"/>
+        <path d="M215 275 c 10 -5, 45 -7, 66 2" stroke="rgb(96, 59, 14)" stroke-width="4" fill="transparent"/>
+        
+        <!––Eyebrows––> 
+        <path d="M199 190 c 20 -5, 45 -10, 45 7" stroke="rgb(255, 252, 196)" stroke-width="14" fill="transparent"/>
+        <path d="M269 207 c 20 -5, 45 -10, 45 7" stroke="rgb(255, 252, 196)" stroke-width="14" fill="transparent"/>
+        <path d="M200 190 c 15 -5, 45 -10, 45 5" stroke="rgb(123, 73, 35)" stroke-width="10" fill="transparent"/>
+        <path d="M270 207 c 15 -5, 45 -10, 45 5" stroke="rgb(123, 73, 35)" stroke-width="10" fill="transparent"/>
+        
+        <!--Hand-->
+        <circle cx="190" cy="323" r="25" fill="rgb(255, 180, 15)"/>
+        <rect width="40" height="42" x="175" y="301" style="fill:rgb(255,180,15);"/>
+        <polygon points="170 330 190 300 190 275 180 290" style="fill:rgb(255,180,15);"/>
+        <polygon points="190 295 270 283 224 300 200 330" style="fill:rgb(255,180,15);"/>
+
+    </svg>
+</body>
+</html>
